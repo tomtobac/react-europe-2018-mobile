@@ -4,7 +4,7 @@ import { Svg, FileSystem, WebBrowser } from "expo";
 import { RectButton } from "react-native-gesture-handler";
 import FadeIn from "react-native-fade-in-image";
 import { withNavigation } from "react-navigation";
-
+import GravatarImage from '../components/GravatarImage';
 import SaveIconWhenSaved from "./SaveIconWhenSaved";
 import { BoldText, RegularText, SemiBoldText } from "./StyledText";
 import { conferenceHasEnded, getSpeakerAvatarURL } from "../utils";
@@ -26,16 +26,24 @@ export default class ContactCard extends React.Component {
     const twitter = this.getContactTwitter();
     return (
       <Card>
-        <CardContent>
-          <Title>{contact.firstName + " " + contact.lastName}</Title>
-          {bio === "" ? null : <Paragraph>{bio}</Paragraph>}
-        </CardContent>
-        <CardActions>
-          {twitter !== "" ? (
-            <Button onPress={this._handlePressTwitterButton}>@{twitter}</Button>
-          ) : null}
-          <Button onPress={this._handlePressEmailButton}>Email</Button>
-        </CardActions>
+        <View style={{flex: 1, flexDirection: 'row'}}>
+          <GravatarImage
+            style={styles.avatarImage}
+            email={contact.email}
+          />
+          <View style={{flex: 1}}>
+            <CardContent>
+              <Title>{contact.firstName + " " + contact.lastName}</Title>
+              {bio === "" ? null : <Paragraph>{bio}</Paragraph>}
+            </CardContent>
+            <CardActions>
+              {twitter !== "" ? (
+                <Button onPress={this._handlePressTwitterButton}>@{twitter}</Button>
+              ) : null}
+              <Button onPress={this._handlePressEmailButton}>Email</Button>
+            </CardActions>
+          </View>
+        </View>
       </Card>
     );
   }
@@ -103,6 +111,13 @@ export default class ContactCard extends React.Component {
   };
 }
 const styles = StyleSheet.create({
+  avatarImage: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    marginLeft: 8,
+    marginTop: 8
+  },
   headerRow: {
     flexDirection: "row"
   },
