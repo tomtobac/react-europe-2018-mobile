@@ -10,7 +10,7 @@ export default class GravatarImage extends React.PureComponent {
     )}?s=200`;
 
     return (
-      <Image source={{ uri: gravatarUrl }} style={this.props.style} />
+      <CachedImage source={{ uri: gravatarUrl }} style={this.props.style} />
     );
   }
 }
