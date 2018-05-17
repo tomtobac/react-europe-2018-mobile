@@ -1600,12 +1600,12 @@
               "url": "https://technologies.fabernovel.com/?utm_source=reacteurope&utm_medium=banner&utm_campaign=reacteurope-sponsor-bannerhttps://technologies.fabernovel.c"
             },
             {
-              "description": "Vente Privée",
+              "description": "At vente-privee Tech, our heart goes to the ones who really loves IT.\n\nBased in several cities (Paris, Amsterdam, Warsaw, Lyon…) we love to say ‘It’s not you who comes to us but it’s us who come to you !’\n\nToday, more than 400 IT employees, among numerous projects, developed with passion some reliable and innovative solutions on web tools.\n\nWe are the right people and we trust them with their choices, which means we use a vast variety of languages, systems, and tools (e.g., React, C#, Haskell, Python, Cassandra, Couchbase, MongoDB, Kubernetes, …",
               "id": 35373,
-              "jobUrl": "http://group.vente-privee.com/JobsOffers.aspx",
+              "jobUrl": "https://tech.vente-privee.com/careers/offers/?utm_source=reacteurope&utm_medium=app&utm_campaign=reacteurope-sponsor-banner",
               "logoUrl": "https://api.eventlama.com/events/158/purchases/35373/logo.png",
               "name": "Vente Privée",
-              "url": "https://tech.vente-privee.com/"
+              "url": "https://tech.vente-privee.com/?utm_source=reacteurope&utm_medium=app&utm_campaign=reacteurope-sponsor-banner"
             },
             {
               "description": "Formidable is a Seattle & London-based JavaScript consultancy and open source software group, specializing in React, React Native, and GraphQL. Our team works with companies ranging in size from startups to Fortune 100s to build quality software and level up engineering teams.",
@@ -1673,6 +1673,22 @@
               "name": "Wavy",
               "url": "https://wavy.fr/?utm_source=react-europe.org&utm_medium=web"
             },
+            {
+              "description": "",
+              "id": 40323,
+              "jobUrl": "",
+              "logoUrl": "https://api.eventlama.com/events/158/purchases/40323/logo.png",
+              "name": "",
+              "url": ""
+            },
+            {
+              "description": "",
+              "id": 40384,
+              "jobUrl": "",
+              "logoUrl": "https://api.eventlama.com/events/158/purchases/40384/logo.png",
+              "name": "",
+              "url": ""
+            }
           ],
           "platinum": [
             {
@@ -1707,83 +1723,55 @@
           "hasStarted": true,
           "nextFiveScheduledItems": [
             {
-              "description": "Make sure to get in early at 323bis Rue de Charenton, 75012 Paris https://goo.gl/maps/t4FKT93C25u",
-              "id": 1460,
+              "description": "- Declarative Data Fetching in React by [Charles Mangwa](https://twitter.com/Charles_Mangwa)\n- React Interface for Ledger Hardware Wallets by [Anastasia Poupeney](https://twitter.com/anastasiia_ser)\n- Web performance - All in one by [David Boyne](https://twitter.com/boyney123)\n- Design meets Code with BuilderX by [Sanket Sahu](https://twitter.com/sanketsahu)\n- React-admin, build an admin like you play Legos by [Francois Zaninotto](https://twitter.com/francoisz)\n- Introducing Backstage: deploy individual branches of your front-end app by [Jesse Pinho](https://twitter.com/jessepinho)",
+              "id": 1466,
               "speakers": [],
-              "startDate": "Thu May 17 06:30:00 +0000 2018",
-              "title": "Registration"
+              "startDate": "Thu May 17 16:00:00 +0000 2018",
+              "title": "Lightning talks session"
+            },
+            {
+              "description": "Drinks, food, socializing, music.",
+              "id": 1467,
+              "speakers": [],
+              "startDate": "Thu May 17 16:45:00 +0000 2018",
+              "title": "Dinner"
+            },
+            {
+              "description": "Make sure to get in early.",
+              "id": 1468,
+              "speakers": [],
+              "startDate": "Fri May 18 06:30:00 +0000 2018",
+              "title": "Check-in"
             },
             {
               "description": "Your typical French breakfast with croissants, coffee and more.",
-              "id": 1461,
+              "id": 1469,
               "speakers": [],
-              "startDate": "Thu May 17 06:45:00 +0000 2018",
+              "startDate": "Fri May 18 06:45:00 +0000 2018",
               "title": "Breakfast"
             },
             {
-              "description": "A little intro before we start.",
-              "id": 1537,
-              "speakers": [],
-              "startDate": "Thu May 17 07:45:00 +0000 2018",
-              "title": "Welcome Session"
-            },
-            {
-              "description": "The state of React.",
-              "id": 1450,
+              "description": "The talk introduces ReasonReact and the way it operates on the state of React components. This is illustrated by introducing the notion of local state presented via a series of examples. State is changed by means of reducers, that can operate directly on the current component, or on distant components via remote actions. Further examples illustrate how certain animations can be considered instances of local state that can be easily composed.",
+              "id": 1451,
               "speakers": [
                 {
-                  "avatarUrl": "https://api.eventlama.com/avatars/events/158/speakers/932/avatar.png",
-                  "bio": "Ken is the Director of Open Source at Formidable, the author of several popular open source libraries, and a frequent conference speaker often focusing on alternative uses of React. He is the creator of libraries such as **Spectacle, urql, react-music, react-game-kit and Webpack Dashboard**. He also maintains a healthy Twitter presence, and enjoys red meat, whiskey and recreational archery.",
-                  "id": 932,
-                  "name": "Ken Wheeler",
+                  "avatarUrl": "https://api.eventlama.com/avatars/events/158/speakers/876/avatar.png",
+                  "bio": "**Engineer at Facebook.\nCo-creator of @fbinfer**, founder of Monoidics, reformed academic.\nInto developer experience, front-end, static analysis, language design.\n**Early @reasonml adopter, co-creator of ReasonReact**.",
+                  "id": 876,
+                  "name": "Cristiano Calcagno",
                   "talks": [
                     {
-                      "description": "This workshop requires an intermediary level in React.js.\n\nThis 2-day workshop will skip the basics and get straight to teaching patterns and techniques that apply directly to developing professionally with React. Using real-world examples, we will cover how to take advantage of React and some of its community packages' features to build maintainable, performant applications. \n\n**Click here to see covered subjects**\n\n- Project Architecture\n- Component Design\n- Patterns for Props\n- setState Master Class\n- Using Context Responsibly\n- HoC’s\n- Routing\n- Redux Patterns\n- Forms\n- SSR\n- Perf & Optimization\n- Scalable CSS-in-JS\n- Testing\n- Render Props\n- Static Typing with Flow\n- Universal Components\n- Error Boundaries\n- Portals\n- Utilizing Developer Tools",
-                      "id": 971,
-                      "startDate": "Tue May 15 07:30:00 +0000 2018",
-                      "title": "React.js Workshop with Ken Wheeler, Brandon Dail and Emma Brillhart - Day 1"
-                    },
-                    {
-                      "description": "This workshop requires an intermediary level in React.js.\n\nThis 2-day workshop will skip the basics and get straight to teaching patterns and techniques that apply directly to developing professionally with React. Using real-world examples, we will cover how to take advantage of React and some of its community packages' features to build maintainable, performant applications. \n\n**Click here to see covered subjects**\n\n- Project Architecture\n- Component Design\n- Patterns for Props\n- setState Master Class\n- Using Context Responsibly\n- HoC’s\n- Routing\n- Redux Patterns\n- Forms\n- SSR\n- Perf & Optimization\n- Scalable CSS-in-JS\n- Testing\n- Render Props\n- Static Typing with Flow\n- Universal Components\n- Error Boundaries\n- Portals\n- Utilizing Developer Tools",
-                      "id": 972,
-                      "startDate": "Wed May 16 07:30:00 +0000 2018",
-                      "title": "React.js Workshop with Ken Wheeler, Brandon Dail and Emma Brillhart - Day 2"
-                    },
-                    {
-                      "description": "The state of React.",
-                      "id": 1450,
-                      "startDate": "Thu May 17 08:00:00 +0000 2018",
-                      "title": "Keynote"
+                      "description": "The talk introduces ReasonReact and the way it operates on the state of React components. This is illustrated by introducing the notion of local state presented via a series of examples. State is changed by means of reducers, that can operate directly on the current component, or on distant components via remote actions. Further examples illustrate how certain animations can be considered instances of local state that can be easily composed.",
+                      "id": 1451,
+                      "startDate": "Fri May 18 08:00:00 +0000 2018",
+                      "title": "ReasonReact and local state"
                     }
                   ],
-                  "twitter": "ken_wheeler"
+                  "twitter": "ccrisccris"
                 }
               ],
-              "startDate": "Thu May 17 08:00:00 +0000 2018",
-              "title": "Keynote"
-            },
-            {
-              "description": "I'm a sucker for web apps that make me smile.\n\nThis talk explores various ways that we, as front-end developers, can make our products more delightful to use. While it's design's job to give us static mock-ups, it's our job to bring those designs to life.\n\nFor example, at Khan Academy, we fill the user's screen with confetti rain when they get 100% correct on an exercise. I'll talk about how we drew on 2D physics to make the confetti feel real.\n\nMake no mistake; while this talk straddles the line between engineering and UX design, this is very much a React talk. I'll show how to abstract motion and whimsical behaviour into reusable components, and how to do SVG/canvas animation in a React-friendly way. I'll tear down some of my favourite examples from across the web, and show how to implement them in React.",
-              "id": 1038,
-              "speakers": [
-                {
-                  "avatarUrl": "https://api.eventlama.com/avatars/events/158/speakers/999/avatar.png",
-                  "bio": "Software engineer at Khan Academy.\nTechnological craftsman. Contributes to many [open source projects](https://github.com/joshwcomeau).\nCat person.",
-                  "id": 999,
-                  "name": "Joshua Comeau",
-                  "talks": [
-                    {
-                      "description": "I'm a sucker for web apps that make me smile.\n\nThis talk explores various ways that we, as front-end developers, can make our products more delightful to use. While it's design's job to give us static mock-ups, it's our job to bring those designs to life.\n\nFor example, at Khan Academy, we fill the user's screen with confetti rain when they get 100% correct on an exercise. I'll talk about how we drew on 2D physics to make the confetti feel real.\n\nMake no mistake; while this talk straddles the line between engineering and UX design, this is very much a React talk. I'll show how to abstract motion and whimsical behaviour into reusable components, and how to do SVG/canvas animation in a React-friendly way. I'll tear down some of my favourite examples from across the web, and show how to implement them in React.",
-                      "id": 1038,
-                      "startDate": "Thu May 17 08:30:00 +0000 2018",
-                      "title": "The Case for Whimsy"
-                    }
-                  ],
-                  "twitter": "joshwcomeau"
-                }
-              ],
-              "startDate": "Thu May 17 08:30:00 +0000 2018",
-              "title": "The Case for Whimsy"
+              "startDate": "Fri May 18 08:00:00 +0000 2018",
+              "title": "ReasonReact and local state"
             }
           ],
           "onGoing": true
