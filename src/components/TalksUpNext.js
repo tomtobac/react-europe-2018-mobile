@@ -33,7 +33,68 @@ export default class TalksUpNext extends React.Component {
       time
     };
   }
-
+  componentDidMount() {
+    let q = `{
+  events(slug: "reacteurope-2018") {
+    id
+    status {
+      hasEnded
+      hasStarted
+      onGoing
+      nextFiveScheduledItems {
+        id
+        title
+        description
+        startDate
+        speakers {
+          id
+          name
+          twitter
+          avatarUrl
+          bio
+          talks {
+            id
+            description
+            title
+            startDate
+          }
+        }
+      }
+    }
+  }
+}
+`;
+    let that = this;
+    fetch("http://www.react-europe.org/gql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: q })
+    })
+      .then(res => res.json())
+      .then(res => {
+        console.log(res.data);
+        if (
+          res &&
+          res.data &&
+          res.data.events &&
+          res.data.events[0] &&
+          res.data.events[0].status &&
+          res.data.events[0].status.nextFiveScheduledItems
+        ) {
+          let nextTalks = res.data.events[0].status.nextFiveScheduledItems;
+          that.setState({
+            nextTalks: res.data.events[0].status.nextFiveScheduledItems.slice(
+              0,
+              3
+            ),
+            dateTime: nextTalks[0].startDate,
+            time: nextTalks[0].startDate
+          });
+        } else {
+          that.setState({ nextTalks: [] });
+        }
+      });
+  }
   render() {
     const { nextTalks } = this.state;
 
